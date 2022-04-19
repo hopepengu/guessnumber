@@ -27,6 +27,8 @@ class GuessNumverViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let tapGesture = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
+         view.addGestureRecognizer(tapGesture)
     }
     
     @IBAction func guessNumber(_ sender: Any) {
@@ -84,13 +86,13 @@ class GuessNumverViewController: UIViewController {
             messageLabel2.text = "哎呀！還剩下\(5-count)次機會"
             if ((a > num_temp) && (num_temp >= 0)) {
                 
-                range_min = num_temp
+                range_min = num_temp+1
                 messageLabel.text = "範圍:\(range_min)~\(range_max)"
                 
                 guessTextField.placeholder = "\(range_min)~\(range_max)"
             }
             if ((a < num_temp) && (num_temp < 100)) {
-                range_max = num_temp
+                range_max = num_temp-1
                 messageLabel.text = "範圍:\(range_min)~\(range_max)"
                 guessTextField.placeholder = "\(range_min)~\(range_max)"
             }
