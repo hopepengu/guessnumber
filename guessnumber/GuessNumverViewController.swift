@@ -20,7 +20,7 @@ class GuessNumverViewController: UIViewController {
     var count = 0
     var num_temp = 0
     var range_max = 99
-    var range_min = 1
+    var range_min = 0
     
     
     override func viewDidLoad() {
@@ -48,8 +48,8 @@ class GuessNumverViewController: UIViewController {
     @IBAction func tryAgainBtn(_ sender: Any) {
         count = 0
         range_max = 99
-        range_min = 1
-        guessTextField.placeholder = "1~99"
+        range_min = 0
+        guessTextField.placeholder = "0~99"
         guessTextField.text = ""
         guessTextField.isEnabled = true
         guessTextField.textColor = UIColor (red: 1, green: 1, blue: 1, alpha: 1)
