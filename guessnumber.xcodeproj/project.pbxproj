@@ -13,6 +13,7 @@
 		94FC7AAD27F58DCC004E6355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FC7AAB27F58DCC004E6355 /* Main.storyboard */; };
 		94FC7AAF27F58DCD004E6355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94FC7AAE27F58DCD004E6355 /* Assets.xcassets */; };
 		94FC7AB227F58DCD004E6355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FC7AB027F58DCD004E6355 /* LaunchScreen.storyboard */; };
+		94FF862828030296008CBE10 /* GuessNumverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF862728030296008CBE10 /* GuessNumverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		94FC7AAE27F58DCD004E6355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94FC7AB127F58DCD004E6355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94FC7AB327F58DCD004E6355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94FF862728030296008CBE10 /* GuessNumverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				94FC7AA727F58DCC004E6355 /* SceneDelegate.swift */,
 				94FC7AA927F58DCC004E6355 /* ViewController.swift */,
 				94FC7AAB27F58DCC004E6355 /* Main.storyboard */,
+				94FF862728030296008CBE10 /* GuessNumverViewController.swift */,
 				94FC7AAE27F58DCD004E6355 /* Assets.xcassets */,
 				94FC7AB027F58DCD004E6355 /* LaunchScreen.storyboard */,
 				94FC7AB327F58DCD004E6355 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94FC7AAA27F58DCC004E6355 /* ViewController.swift in Sources */,
+				94FF862828030296008CBE10 /* GuessNumverViewController.swift in Sources */,
 				94FC7AA627F58DCC004E6355 /* AppDelegate.swift in Sources */,
 				94FC7AA827F58DCC004E6355 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,8 +291,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D95TR8JZ3B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = guessnumber/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "猜企鵝";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -314,8 +320,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D95TR8JZ3B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = guessnumber/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "猜企鵝";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
