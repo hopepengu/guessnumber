@@ -34,10 +34,12 @@ class GuessNumverViewController: UIViewController {
     @IBAction func guessNumber(_ sender: Any) {
     }
     @IBAction func guessBtn(_ sender: Any) {
+        
+        
         if count == 0 {
             generateNumber()
         }
-        num_temp = Int(guessTextField.text!) ?? 0
+        num_temp = Int(guessTextField.text!) ?? -1
         if a == num_temp {
            success()
         }
